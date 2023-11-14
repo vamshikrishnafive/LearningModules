@@ -1,0 +1,29 @@
+Take home from the present lecture is that if we know to check iterations from i to N/i, 
+we don't need to go till the N/i manually but going to square of N are incrementing the count 2 times
+also works fine.
+
+Example : count of factors : 
+
+N = 24; 
+
+formula: 
+a * b = N; a is factor of N and b is also factor of N
+is also can be written as 
+a is factor of N;
+b = N/a is factor of N;
+
+i, N/i ( where i is iterator value )
+1, 24
+2, 12
+3, 8
+4, 6 ==
+6, 4
+8, 3
+12, 2
+24, 1
+ 
+things ten to repeat after the some point of times, so waste of time to iterate over all of them.
+when we see i is incrementing and equal to N/i if incrementing by 1 else 2;
+
+
+
